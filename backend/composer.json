@@ -1,0 +1,16 @@
+{
+	"name": "campsite/backend",
+	"description": "The backend for the campsite booking system",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "arynxd",
+			"email": "64087640+arynxd@users.noreply.github.com"
+		}
+	],
+	"require-dev": {
+		"rector/rector": "^0.12.15"
+	},
+	"require": {}
+}
