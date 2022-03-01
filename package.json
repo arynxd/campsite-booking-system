@@ -1,0 +1,25 @@
+{
+	"name": "campsite-booking-system",
+	"version": "1.0.0",
+	"description": "## TODO",
+	"scripts": {
+		"fmt": "prettier --write .",
+		"build": "make all",
+		"build-backend": "make backend",
+		"build-frontend": "make frontend"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arynxd/campsite-booking-system.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/arynxd/campsite-booking-system/issues"
+	},
+	"homepage": "https://github.com/arynxd/campsite-booking-system#readme",
+	"dependencies": {
+		"@prettier/plugin-php": "^0.17.6",
+		"prettier": "^2.5.1"
+	}
+}
