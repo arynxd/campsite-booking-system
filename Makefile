@@ -30,9 +30,8 @@ backend: clean fmt
 	rm -rf build/
 	mkdir build/
 
-	cp -R src/* build/ # copy src to build since rector will modify in-place
-	vendor/bin/rector process --no-diffs --no-ansi --no-progress-bar build
-	cp -R build/* ../dist
+	@echo 'TODO: implement backend build process'
+	exit 1
 
 after:
 	@echo 'Site built! Wrote to dist/'
