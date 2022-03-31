@@ -1,0 +1,21 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently --names \"TypeScript,Nodemon,App\" -c \"bgBlue,bgRed,bgWhite.black\" start \"tsc -w\" \"nodemon dist/index.js -q\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"fastify": "^3.27.4"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.23",
+		"concurrently": "^7.0.0",
+		"nodemon": "^2.0.15",
+		"typescript": "^4.6.3"
+	}
+}
